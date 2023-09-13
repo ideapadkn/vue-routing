@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "make": "Chevrolet",
+    "body": "coupe",
+    "price": 45323,
+    "year": 2020,
+    "img": "https://cdn.carbuzz.com/gallery-images/1600/666000/800/666892.jpg"
+  },
+  {
+    "id": 2,
+    "make": "Buick",
+    "body": "sedan",
+    "price": 25422,
+    "year": 2016,
+    "img": "https://rare-gallery.com/uploads/posts/801601-2016-LaCrosse-Buick-Metallic.jpg"
+  },
+  {
+    "id": 3,
+    "make": "Porsche",
+    "body": "SUV",
+    "price": 77693,
+    "year": 2018,
+    "img": "https://avatars.mds.yandex.net/i?id=05910e9213f8a260bfff439ca65b38279e55e614-6505870-images-thumbs&n=13"
+  },
+  {
+    "id": 5,
+    "make": "Audi",
+    "body": "SUV",
+    "price": 12242,
+    "year": 2011,
+    "img": "https://1.bp.blogspot.com/-CDWxPaUWXQ4/T0XHyjokj3I/AAAAAAAAE1o/IieUby4eOVs/s1600/Audi-2011_A7_Sportback_wallpaper-1600x1200_0032.jpg"
+  },
+  {
+    "id": 6,
+    "make": "Chevrolet",
+    "body": "coupe",
+    "price": 145323,
+    "year": 2023,
+    "img": "https://www.carscoops.com/wp-content/uploads/2021/09/Chevrolet-Camaro-Z28.jpg"
+  },
+  {
+    "id": 7,
+    "make": "Chevrolet",
+    "body": "SUV",
+    "price": 434,
+    "year": 2003,
+    "img": "https://avatars.mds.yandex.net/i?id=cb7679da78c983ee984a745f3b4fdb45c5d5a0b7-7593439-images-thumbs&n=13"
+  },
+  {
+    "id": 8,
+    "make": "Porsche",
+    "body": "Coupe",
+    "price": 277693,
+    "year": 2023,
+    "img": "https://www.ixbt.com/img/n1/news/2023/0/3/porsche-911-dakar-aint-afraid-of-the-cold-looks-even-dreamier-in-real-life-photos_7_large.jpg"
+  },
+  {
+    "id": 9,
+    "make": "Audi",
+    "body": "sedan",
+    "price": 82242,
+    "year": 2019,
+    "img": "https://avatars.mds.yandex.net/i?id=b8b08565a16707520f08a705c344f56d210b13ac-10700734-images-thumbs&n=13"
+  },
+  {
+    "id": 10,
+    "make": "Chevrolet",
+    "body": "coupe",
+    "price": 45323,
+    "year": 2020,
+    "img": "https://avatars.mds.yandex.net/i?id=0e199eab3ee922d4146599e4839800b418cd9eb1-9860570-images-thumbs&n=13"
+  }
+]

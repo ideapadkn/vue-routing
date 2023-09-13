@@ -1,6 +1,9 @@
 <script setup>
 import carsData from "../data.json";
 import { ref } from "vue";
+import { useRouter } from "vue-router";
+
+const router = useRouter();
 
 const cars = ref(carsData);
 </script>
@@ -9,10 +12,14 @@ const cars = ref(carsData);
   <main class="container">
     <h1 class="text-2xl font-semibold mb-12">Cars</h1>
     <div class="cards">
-      <div v-for="car in cars" :key="car.id" class="card">
-        <img class="h-[100px]" :src="car.img" :alt="car.id" />
-        <h1>{{ car.make }}</h1>
-        <p>${{ car.price }}</p>
+      <div
+        @click="router.push(`/car/${car.id}`)"
+        v-for="car in cars"
+        :key="car.id"
+        class="card"
+      >
+        <img class="h-[100px] mb-3" :src="car.img" :alt="car.id" />
+        <h1 class="text-center text-xl font-semibold">{{ car.make }}</h1>
       </div>
     </div>
   </main>
@@ -30,7 +37,7 @@ const cars = ref(carsData);
   padding: 15px;
   width: 150px;
   cursor: pointer;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 .card:hover {
   scale: 1.1;
